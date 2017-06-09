@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>FX Options Admin - Bootstrap Admin Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/tables.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">FX Options Admin</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Shan Feng</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Shan Feng</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Shan Feng</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Read All New Messages</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">View All</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Shan Feng <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li class="active">
+                        <a href="tables.html"><i class="fa fa-fw fa-table"></i> FX Options</a>
+                    </li>
+                    <li>
+                        <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Pricing</a>
+                    </li>
+                    
+                    <li>
+                        <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Others</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            FX Options
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li>
+                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                            </li>
+                            <li class="active">
+                                <i class="fa fa-table"></i> FX Options
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    
+                    <div class="col-lg-12">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#callTab" aria-controls="home" role="tab" data-toggle="tab">Call Options</a></li>
+                            <li role="presentation"><a href="#putTab" aria-controls="profile" role="tab" data-toggle="tab">Put Options</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="callTab">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Symbol</th>
+                                                <th>Strike Price</th>
+                                                <th>Last</th>
+                                                <th>Chg</th>
+                                                <th>Bid($)</th>
+                                                <th>Bid(#)</th>
+                                                <th>Ask($)</th>
+                                                <th>Ask(#)</th>
+                                                <th>Vol</th>
+                                                <th>Open Int</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">EUR/USD</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td>0.00</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">AUD/USD</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td class="redFont">-0.1</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">USD/JPY</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td class="greenFont">1.12</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">USD/CAD</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td class="greenFont">0.85</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">USD/SGD</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td class="redFont">-0.05</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                          
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div><!-- /.callTab -->
+                            <div role="tabpanel" class="tab-pane" id="putTab">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Symbol</th>
+                                                <th>Strike Price</th>
+                                                <th>Last</th>
+                                                <th>Chg</th>
+                                                <th>Bid($)</th>
+                                                <th>Bid(#)</th>
+                                                <th>Ask($)</th>
+                                                <th>Ask(#)</th>
+                                                <th>Vol</th>
+                                                <th>Open Int</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">AUD/USD</a></td>
+                                                <td>31.50</td>
+                                                <td>2.55</td>
+                                                <td class="noChange">0.00</td>
+                                                <td>30.20</td>
+                                                <td>296.0</td>
+                                                <td>31.40</td>
+                                                <td>246.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">USD/JPY</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td class="greenFont">0.10</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">EUR/USD</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td class="redFont">-0.90</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">USD/CAD</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td class="noChange">0.00</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#detailModal">USD/SGD</a></td>
+                                                <td>32.50</td>
+                                                <td>3.55</td>
+                                                <td class="noChange">0.00</td>
+                                                <td>31.20</td>
+                                                <td>306.0</td>
+                                                <td>32.40</td>
+                                                <td>256.0</td>
+                                                <td>0.0</td>
+                                                <td>0</td>
+                                                <td><button  class="btn btn btn-primary" data-toggle="modal" data-target="#chartModal">Chart&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-stats"></span></button>
+                                                <button  class="btn btn btn-primary" data-toggle="modal" data-target="#bookingModal">Booking&nbsp;<span aria-hidden="true" class="glyphicon glyphicon-usd"></span></button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+                <!-- /.row --> 
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+        <!-- Detail Modal -->
+        <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" >$10.03 +0.52 (5.468%) EUR/USD</h4>
+              </div>
+              <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <tbody>
+                            <tr>
+                                <td>Last Trade:</td>
+                                <td>10.03:</td>
+                            </tr>
+                            <tr>
+                                <td>Change:</td>
+                                <td>+0.52 (5.47%)</td>
+                            </tr>
+                            <tr>
+                                <td>Volume</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Open Interest:</td>
+                                <td>1.12</td>
+                            </tr>
+                            <tr>
+                                <td>Day's High:</td>
+                                <td>10.04</td>
+                            </tr>
+                            <tr>
+                                <td>Day's Low:</td>
+                                <td>10.05</td>
+                            </tr>
+                            <tr>
+                                <td>Ask Price:</td>
+                                <td>10.04</td>
+                            </tr>
+                            <tr>
+                                <td>Bid Price:</td>
+                                <td>10.05</td>
+                            </tr>
+                            <tr>
+                                <td>Expiration Date:</td>
+                                <td>4/15/2016</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- detail Modal -->
+
+
+        <!-- Chart Modal -->
+        <div class="modal fade" id="chartModal" tabindex="-1" role="dialog" aria-labelledby="chartModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Trend Chart</h4>
+              </div>
+              <div class="modal-body">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div id="container" style="min-width: 410px; height: 300px; margin: 0 auto"></div>
+                        <div class="text-right">
+                            <a href="#">View Details <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- Chart Modal -->
+
+
+        <!-- Booking Modal -->
+        <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="bookingModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Ticket Booking</h4>
+              </div>
+              <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <tbody>
+                            <tr>
+                                <td>Ticker Symbol</td>
+                                <td><input class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td>Transaction</td>
+                                <td><select class="form-control"><option>Buy to Open</option><option>Buy to Open</option></select></td>
+                            </tr>
+                            <tr>
+                                <td># of Contracts</td>
+                                <td><input class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td>Type</td>
+                                <td><select class="form-control"><option>Call</option><option>Put</option></select></td>
+                            </tr>
+                            <tr>
+                                <td>Strike Price</td>
+                                <td><input class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td>Target Price</td>
+                                <td><input class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td>Expiry Month</td>
+                                <td><select class="form-control" disabled><option>April</option></td>
+                            </tr>
+                            <tr>
+                                <td>Duration</td>
+                                <td><select class="form-control"><option>Day Order</option><option>Good Till Cancelled</option></select></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- Booking Modal -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+    <script src="js/tables.js"></script>
+
+
+</body>
+
+</html>
