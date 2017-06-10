@@ -1,0 +1,58 @@
+.panel-physics{
+	
+}
+
+.panel-physics>.panel-heading{
+	background-color:#337ab7;
+	border-color:#337ab7;
+}
+
+.fa-physics:before{
+	content:"\f084";
+}
+
+.panel-chemistry>.panel-heading{
+	background-color:#5cb85c;
+	border-color:#5cb85c;
+}
+
+.fa-chemistry:before{
+	content:"\f0c3";
+}
+
+.panel-medicine>.panel-heading{
+	background-color:#f0ad4e;
+	border-color:#f0ad4e;
+}
+
+.fa-medicine:before{
+	content:"\f1fb";
+}
+
+.panel-literature>.panel-heading{
+	background-color:#d9534f;
+	border-color:#d9534f;
+}
+
+.fa-literature:before{
+	content:"\f21d";
+}
+
+.panel-peace>.panel-heading{
+	background-color:#914fd9;
+	border-color:#914fd9;
+}
+
+.fa-peace:before{
+	content:"\f0ae";
+}
+
+.panel-economics>.panel-heading{
+	background-color:#e24c98;
+	border-color:#e24c98;
+}
+
+.fa-economics:before{
+	content:"\f07a";
+}
+
